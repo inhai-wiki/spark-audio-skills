@@ -1,0 +1,4 @@
+interface:
+  display_name: "讯飞双音色播客"
+  short_description: "把文稿编排为双角色脚本，固定音色逐段合成播客，支持缓存和离线拼接"
+  default_prompt: "使用 $xfyun-dual-voice-podcast 将这份材料整理成双人播客，先准备脚本和角色音色配置。"

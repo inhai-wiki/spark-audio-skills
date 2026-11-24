@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "title": "两个语音 Skill 的接口联调样例",
+  "settings": {"pause_ms": 300},
+  "speakers": {
+    "host": {"name": "主持人", "voice": "x6_lingfeiyi_pro"},
+    "guest": {"name": "讲解者", "voice": "x6_lingyuyan_pro"}
+  },
+  "turns": [
+    {"id": "question", "speaker": "host", "text": "今天的样例演示两个功能：长录音转写和双音色播客。"},
+    {"id": "answer", "speaker": "guest", "text": "先生成带时间位置的文稿，再选择高光片段，导出音频供内容团队复用。", "pause_after_ms": 0}
+  ]
+}

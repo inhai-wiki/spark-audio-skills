@@ -1,0 +1,154 @@
+{
+  "date": "2026-11-25",
+  "tests_passed": 70,
+  "skill_validation": {
+    "highlight": true,
+    "podcast": true
+  },
+  "offline_demo_api_requests": 0,
+  "live_demo": {
+    "tts_successful_requests": 2,
+    "tts_characters": 56,
+    "tts_duration_seconds": 12.58,
+    "tts_rejected_requests": 1,
+    "tts_rejected_code": 11200,
+    "asr_uploads": 1,
+    "asr_polls": 2,
+    "asr_characters_compared_without_punctuation": 51,
+    "asr_text_match_without_punctuation": true,
+    "asr_input_origin": "AI synthesized demo; not a real-world accuracy benchmark",
+    "clip_duration_seconds": 6.96,
+    "source_unchanged": true,
+    "actual_charge": "not available; consult provider console"
+  },
+  "not_tested": [
+    "systematic noisy speech and dialect accuracy",
+    "CER/WER against manual reference for Bilibili source",
+    "competitor comparisons",
+    "subjective blind listening",
+    "maximum-length files",
+    "production concurrency",
+    "V2 backend live service"
+  ],
+  "compileall": true,
+  "latest_delivery": {
+    "date": "2026-11-25",
+    "bilibili_highlights": {
+      "source_url": "https://www.bilibili.com/video/BV1t55v6DE2v/",
+      "source_title": "Agent和Harness到底是什么？一个动画彻底搞懂！",
+      "source_duration_seconds": 786.088345,
+      "source_origin": "recorded Bilibili video obtained locally",
+      "asr_uploads": 1,
+      "asr_polls": 4,
+      "transcript_segments": 75,
+      "source_sha256_matches": true,
+      "clips": [
+        {
+          "id": "react-loop",
+          "start": 133.8,
+          "end": 202.6,
+          "audio_duration_seconds": 68.8,
+          "video_duration_seconds": 68.8
+        },
+        {
+          "id": "context-compression",
+          "start": 421.1,
+          "end": 471.2,
+          "audio_duration_seconds": 50.1,
+          "video_duration_seconds": 50.1
+        },
+        {
+          "id": "harness",
+          "start": 701.25,
+          "end": 760.1,
+          "audio_duration_seconds": 58.85,
+          "video_duration_seconds": 58.866666
+        }
+      ],
+      "formats": [
+        "mp3",
+        "mp4"
+      ],
+      "summary_origin": "Agent-authored manifest",
+      "markdown_summaries_exported": true,
+      "decoded_files": 6,
+      "word_error_rate": null,
+      "manual_reference_transcript_available": false
+    },
+    "voice_auditions": {
+      "text_characters_each": 92,
+      "successful_requests": 4,
+      "successful_characters": 368,
+      "settings": {
+        "speed": 50,
+        "volume": 50,
+        "pitch": 50
+      },
+      "voices": [
+        {
+          "name": "聆飞逸",
+          "voice": "x6_lingfeiyi_pro",
+          "duration_seconds": 18.44
+        },
+        {
+          "name": "聆玉言",
+          "voice": "x6_lingyuyan_pro",
+          "duration_seconds": 18.12
+        },
+        {
+          "name": "聆小璇",
+          "voice": "x6_lingxiaoxuan_pro",
+          "duration_seconds": 19.12
+        },
+        {
+          "name": "聆小玥",
+          "voice": "x6_lingxiaoyue_pro",
+          "duration_seconds": 20.08
+        }
+      ],
+      "rejected_requests": [
+        {
+          "name": "聆玉昭",
+          "voice": "x6_lingyuzhao_pro",
+          "provider_code": 10163,
+          "successful_audio": false,
+          "automatically_retried": false
+        }
+      ],
+      "decoded_mp3_files": 4
+    },
+    "news_podcast": {
+      "script": "examples/jensen-news-comedy.json",
+      "style": "workplace comedy commentary",
+      "turns": 12,
+      "successful_requests": 12,
+      "characters": 620,
+      "duration_seconds": 125.15,
+      "pause_between_turns_ms": 250,
+      "voices": [
+        "x6_lingfeiyi_pro",
+        "x6_lingyuyan_pro"
+      ],
+      "mp3_decodes": true,
+      "wav_decodes": true,
+      "subtitle_accuracy": "segment"
+    },
+    "media_checks": "Complete decoding and metadata checks only; not a subjective listening or boundary-quality review.",
+    "actual_charge": "not available; consult provider console",
+    "previous_news_podcast": {
+      "script": "examples/jensen-news-podcast.json",
+      "turns": 6,
+      "successful_requests": 6,
+      "characters": 573,
+      "duration_seconds": 112.2,
+      "pause_between_turns_ms": 320,
+      "voices": [
+        "x6_lingfeiyi_pro",
+        "x6_lingyuyan_pro"
+      ],
+      "mp3_decodes": true,
+      "wav_decodes": true,
+      "subtitle_accuracy": "segment"
+    }
+  }
+}

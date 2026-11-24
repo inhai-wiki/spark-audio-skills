@@ -1,0 +1,4 @@
+interface:
+  display_name: "讯飞语音高光切片"
+  short_description: "处理本地播客或 B 站视频，由 Agent 筛选高光并撰写逐片摘要，导出切片与文稿"
+  default_prompt: "使用 $xfyun-highlight-clips 处理这份本地播客或视频，保留转写稿，选出完整高光，给每段写内容摘要并导出切片和 Markdown 清单。"

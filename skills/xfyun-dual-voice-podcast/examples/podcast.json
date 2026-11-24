@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "title": "财经新闻双人对谈脚本示例",
+  "settings": {"pause_ms": 280},
+  "speakers": {
+    "host": {"name": "主持人", "voice": "x6_lingfeiyi_pro", "speed": 50, "volume": 50, "pitch": 50},
+    "guest": {"name": "评论者", "voice": "x6_lingyuyan_pro", "speed": 50, "volume": 50, "pitch": 50}
+  },
+  "turns": [
+    {"id": "opening", "speaker": "host", "text": "一条公司人事消息，常常会引来对股价的讨论。听到这样的新闻，我们先看什么？"},
+    {"id": "context", "speaker": "guest", "text": "先读公司公告，核对发生时间、具体职务和生效日期。报道中的事实和作者的判断，也要分清楚。"},
+    {"id": "market", "speaker": "host", "text": "那报道里提到的股价上涨，能直接当作当天的收盘表现吗？"},
+    {"id": "closing", "speaker": "guest", "text": "要看数据的时间口径。盘前、盘中和收盘，对应的价格可能不同。把出处和时间核对好，再讨论市场为什么做出这样的反应。", "pause_after_ms": 0}
+  ]
+}
